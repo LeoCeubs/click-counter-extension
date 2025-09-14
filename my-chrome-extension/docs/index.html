@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootcamp Helper — Extensão MV3</title>
+  <style>
+    body { font-family: sans-serif; max-width: 800px; margin: auto; padding: 20px; line-height: 1.6; }
+    h1, h2 { color: #333; }
+    code { background-color: #f0f0f0; padding: 2px 5px; border-radius: 4px; }
+    ul { list-style-type: none; padding: 0; }
+    li::before { content: "• "; color: #ec0089; font-weight: bold; }
+    .install-box { border: 1px solid #ddd; padding: 15px; border-radius: 8px; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Bootcamp Helper</h1>
+  <p>Extensão para Chrome (Manifest V3) — projeto do Bootcamp II.</p>
+  <hr>
+  <h2>Funcionalidade</h2>
+  <p>Esta extensão simples adiciona um botão no seu navegador que, quando clicado, realça todos os links (<code>&lt;a&gt;</code>) da página ativa com uma borda colorida.</p>
+
+  <h2>Instalação manual (modo desenvolvedor)</h2>
+  <div class="install-box">
+    <ol>
+      <li>Acesse <code>chrome://extensions</code> no seu navegador Chrome.</li>
+      <li>Ative o "Modo do desenvolvedor" (Developer mode) no canto superior direito.</li>
+      <li>Clique em "Carregar sem compactar" (Load unpacked) e selecione a pasta raiz do projeto.</li>
+    </ol>
+  </div>
+
+  <h2>Permissões</h2>
+  <p>A extensão requer as seguintes permissões para funcionar:</p>
+  <ul>
+    <li><code>storage</code>: Para armazenar dados localmente no navegador (como a data de instalação).</li>
+    <li><code>activeTab</code>: Para injetar o script na guia ativa quando o usuário clica no botão.</li>
+  </ul>
+
+  <p>Para baixar a versão empacotada, visite a página de <a href="https://github.com/SEU_USUARIO/SEU_REPOSITORIO/releases" target="_blank">Releases do Projeto</a>.</p>
+
+</body>
+</html>
