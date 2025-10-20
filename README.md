@@ -58,6 +58,8 @@ storage: Para armazenar dados da extensão de forma persistente.
 activeTab: Para se comunicar com a guia ativa e obter a contagem de cliques.
 
 host_permissions (<all_urls>): Permite a injeção do content script em todas as páginas web.
+<img width="1024" height="1024" alt="ac6d07ce-f20e-457f-8393-19d4dd3df4d8" src="https://github.com/user-attachments/assets/902a7368-a951-41e1-8b46-ea5202169f99" />
+
 
 <br>
 
