@@ -11,27 +11,6 @@ Ao ser ativada, a extensão injeta um script em todas as páginas web. Este scri
 📦 Estrutura do Projeto
 A estrutura de pastas segue as boas práticas de desenvolvimento de extensões para o Chrome, organizando os componentes de forma lógica.
 
-my-chrome-extension/
-├─ src/
-│  ├─ popup/
-│  │  ├─ popup.html     ← UI do popup (o que o usuário vê)
-│  │  ├─ popup.js       ← Lógica para interagir com o popup e a página
-│  │  └─ popup.css      ← Estilo para o popup
-│  ├─ content/
-│  │  └─ content.js     ← Script injetado na página para contar cliques
-│  └─ background/
-│     └─ service-worker.js ← Lógica de eventos em segundo plano
-├─ icons/
-│  ├─ icon16.png
-│  ├─ icon32.png
-│  ├─ icon48.png
-│  └─ icon128.png
-├─ docs/              ← Arquivos para a página do GitHub Pages
-│  └─ index.html
-├─ manifest.json      ← O "coração" da extensão, com todas as configurações
-├─ README.md          ← Este arquivo
-└─ LICENSE            ← Licença do projeto
-<br>
 
 🛠️ Como Instalar (Modo Desenvolvedor)
 Siga estes passos para carregar e testar a extensão no seu navegador Chrome:
