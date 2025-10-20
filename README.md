@@ -1,4 +1,4 @@
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/df98a46f-8255-4701-9527-cfd90695751c" />Click Counter
+Click Counter
 Uma extensão simples para o Google Chrome (Manifest V3) que conta o número de cliques em qualquer página web. Este projeto foi desenvolvido como parte de um exercício prático para aprender sobre as APIs de extensão do Chrome, Service Workers e Content Scripts.
 
 <br>
